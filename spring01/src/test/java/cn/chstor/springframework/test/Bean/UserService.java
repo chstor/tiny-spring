@@ -6,6 +6,7 @@ package cn.chstor.springframework.test.Bean;
  * @modyified By :
  */
 public class UserService {
+    //
     public void queryUserInfo(){
         System.out.println("查找用户信息");
     }

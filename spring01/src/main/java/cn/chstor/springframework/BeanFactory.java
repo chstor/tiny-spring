@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class BeanFactory {
     private Map<String,BeanDefinition> beanFactoryMap = new ConcurrentHashMap<>();
-
+    //
     public Object getBean(String name){
         return beanFactoryMap.get(name).getBean();
     }

@@ -11,7 +11,7 @@ import org.junit.Test;
  * @modyified By :
  */
 public class ApiTest {
-
+    //
     @Test
     public void test_BeanFactory(){
         //创建工厂
@@ -19,7 +19,7 @@ public class ApiTest {
         //注册bean
         BeanDefinition beanDefinition = new BeanDefinition(new UserService());
         beanFactory.registerBeanDefinition("userService",beanDefinition);
-        UserService userService = (UserService)beanFactory.getBean("userService");
+        UserService userService = (UserService)beanFactory.getBean("userSer vice");
         userService.queryUserInfo();
     }
 }
