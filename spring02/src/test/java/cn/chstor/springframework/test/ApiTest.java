@@ -1,6 +1,6 @@
-package cn.bugstack.springframework.test;
+package cn.chstor.springframework.test;
 
-import cn.bugstack.springframework.test.bean.UserService;
+import cn.chstor.springframework.test.bean.UserService;
 import cn.chstor.springframework.beans.factory.config.BeanDefinition;
 import cn.chstor.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.junit.Test;

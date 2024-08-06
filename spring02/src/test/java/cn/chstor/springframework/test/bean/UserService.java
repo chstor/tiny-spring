@@ -1,4 +1,4 @@
-package cn.bugstack.springframework.test.bean;
+package cn.chstor.springframework.test.bean;
 
 /**
  * @author : bing
